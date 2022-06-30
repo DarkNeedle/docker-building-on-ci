@@ -3,6 +3,8 @@ executors:
   docker-publisher:
     environment:
       IMAGE_NAME: darkneedle/building-on-ci
+      DOCKERHUB_PASS: riwtaj-xuqbi3-qiKdyh
+      DOCKERHUB_USERNAME: darkneedle
     docker:
       - image: circleci/buildpack-deps:stretch
 jobs:
